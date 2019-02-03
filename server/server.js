@@ -27,7 +27,7 @@ io.on('connection', (socket) => {
 					
 /* 		socket.broadcast.emit('newMessage', generateMessage(message.from, message.text)); */
 
-		callback('This is from server.');
+		callback();
 	});	
 	
 	//https://www.google.com/maps?q=52.132633,5.291265999999999
